@@ -23,9 +23,10 @@
             foreach ($projects as $i => $project){?>
                 
                  <div class="projects__item">
-                  <img src="<?php echo $project['image'] ?>" alt="My projects">
+                  <img src="./include<?php echo $project['image'] ?>" alt="My projects">
                   <div class="projects__description">
-                      <?php echo $project['description']?>
+                     <p> The main technology is: <?php echo $project['main_technology']?></p> 
+                     <p> Other technologies used: <?php echo $project['secondary_technology']?></p> 
                   </div>
                   <div class="projects__btns">
                       <a href="<?php echo $project['live'] ?>" class="projects__btn">

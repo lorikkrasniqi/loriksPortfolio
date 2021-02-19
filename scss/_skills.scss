@@ -5,11 +5,12 @@
   }
 
   &__list {
+    padding: 1.5rem;
     p {
       color: #fff;
       text-transform: uppercase;
       margin: 0 0 20px;
-      padding: 0;
+
       display: inline;
     }
   }
@@ -31,4 +32,8 @@
 }
 .delete-skill {
   display: inline-block;
+}
+
+.delete-skill {
+  position: relative;
 }

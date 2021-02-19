@@ -254,16 +254,19 @@
 .contact input[type="text"],
 .contact input[type="email"],
 .contact input[type="month"],
+.contact input[type="number"],
 .contact select,
 .contact textarea,
 .modal-content input[type="text"],
 .modal-content input[type="email"],
 .modal-content input[type="month"],
+.modal-content input[type="number"],
 .modal-content select,
 .modal-content textarea,
 .profile input[type="text"],
 .profile input[type="email"],
 .profile input[type="month"],
+.profile input[type="number"],
 .profile select,
 .profile textarea {
   width: 100%;
@@ -476,6 +479,12 @@
   display: inline-block;
 }
 
+.admin .skill__part {
+  width: 80vw;
+  height: 15vh;
+  border-bottom: solid 2px #f3f2ef;
+}
+
 .modal,
 .modalEdit,
 .modalEditEx {
@@ -582,11 +591,14 @@
   text-align: center;
 }
 
+.skill__list {
+  padding: 1.5rem;
+}
+
 .skill__list p {
   color: #fff;
   text-transform: uppercase;
   margin: 0 0 20px;
-  padding: 0;
   display: inline;
 }
 
@@ -610,6 +622,10 @@
 
 .delete-skill {
   display: inline-block;
+}
+
+.delete-skill {
+  position: relative;
 }
 
 .experience__t {

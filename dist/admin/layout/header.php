@@ -27,7 +27,7 @@
             <a href="education.php" class="menu-nav__link"> Education</a>
           </li>
           <li class="menu-nav__item">
-            <a href="#projects" class="menu-nav__link"> My Projects </a>
+            <a href="project.php" class="menu-nav__link"> My Projects </a>
           </li>
           <li class="menu-nav__item">
             <a href="experience.php" class="menu-nav__link"> Experiences </a>

@@ -1,4 +1,9 @@
 <?php 
+
+session_start();
+    if (!isset($_SESSION['logged_in'])) {
+        header("location:login.php");
+    }
 include_once "./layout/header.php"
 ?>
 <section class="admin admin__contact">

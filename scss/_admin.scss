@@ -17,6 +17,11 @@
   .btn_row {
     display: inline-block;
   }
+  .skill__part {
+    width: 80vw;
+    height: 15vh;
+    border-bottom: solid 2px $light-gray;
+  }
 }
 .modal,
 .modalEdit,

@@ -41,13 +41,13 @@ include_once "./layout/header.php"
                       
                       <p class="education__desription"><?php echo $experience['description'] ?></p>
                       <br>
-                      <div class="education__edit btn_row">
+                      <!-- <div class="education__edit btn_row">
                     
                      <button id="editBtnEx" class="btn btn_row modal-open"
                      data-modal ="modal1"  data-id='<?php echo $experience['id']; ?>'>Edit</button>
                                             
                                            
-                      </div>
+                      </div> -->
                       <div class="education__delete btn_row">
                           <form action='./../include/deleteExperience.php' method='post' >
                                                 <input class='btn btn_row' align='center' type='submit' name='delete'  value='Delete' onclick="return confirm('Please confirm');">
