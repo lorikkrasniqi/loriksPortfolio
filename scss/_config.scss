@@ -1,0 +1,34 @@
+$primary-color: #303030;
+$secondary-color: #14cfae;
+$light-black: #141414;
+$light-gray: #f3f2ef;
+$white: #fff;
+$black: #000000;
+$font-primary: "Source Sans Pro", sans-serif;
+$font-secondary: "Source Code Pro", monospace;
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+@mixin transition-ease {
+  transition: all 0.5s ease-in-out;
+}
+
+@mixin media-md {
+  @media screen and (min-width: 768px) {
+    @content;
+  }
+}
+@mixin media-l {
+  @media screen and (min-width: 1024px) {
+    @content;
+  }
+}
+@mixin media-xl {
+  @media screen and (min-width: 1600px) {
+    @content;
+  }
+}

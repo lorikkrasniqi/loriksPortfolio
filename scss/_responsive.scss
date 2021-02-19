@@ -1,0 +1,18 @@
+@include media-md {
+  .projects {
+    &__items {
+      grid-template-columns: repeat(2, 1fr);
+    }
+  }
+}
+
+@include media-l {
+  .projects {
+    &__items {
+      grid-template-columns: repeat(3, 1fr);
+    }
+  }
+}
+
+@include media-xl {
+}

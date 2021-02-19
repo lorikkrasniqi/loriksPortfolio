@@ -1,0 +1,34 @@
+.home {
+  width: 100%;
+
+  padding-top: 10vh;
+  overflow: hidden;
+  align-items: center;
+  text-align: center;
+
+  h1 {
+    font-size: 2.5rem;
+  }
+
+  &__profile {
+    top: 288px;
+    left: 33px;
+    width: 249px;
+    height: 249px;
+    opacity: 1;
+    box-shadow: 0.25em 0.25em 0.75em rgba(0, 0, 0, 25);
+    margin-bottom: 2.5rem;
+    margin-top: 0.75rem;
+  }
+  &__name {
+    font-size: 5rem;
+    padding-bottom: 1rem;
+    margin-bottom: 1rem;
+    border-bottom: 2px solid set-text-color($primary-color);
+
+    &--last {
+      color: $secondary-color;
+      font-weight: 700;
+    }
+  }
+}

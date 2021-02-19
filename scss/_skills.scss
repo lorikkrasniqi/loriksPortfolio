@@ -1,0 +1,34 @@
+.skill {
+  &__t {
+    align-items: center;
+    text-align: center;
+  }
+
+  &__list {
+    p {
+      color: #fff;
+      text-transform: uppercase;
+      margin: 0 0 20px;
+      padding: 0;
+      display: inline;
+    }
+  }
+  &__p {
+    float: right;
+    position: relative;
+  }
+
+  &__bar {
+    background: #262626;
+    padding: 4px;
+    box-sizing: border-box;
+    border: 1px solid $secondary-color;
+  }
+  &__level {
+    background: $secondary-color;
+    height: 20px;
+  }
+}
+.delete-skill {
+  display: inline-block;
+}

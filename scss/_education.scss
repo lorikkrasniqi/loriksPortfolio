@@ -1,0 +1,32 @@
+.education {
+  &__t {
+    align-items: center;
+    text-align: center;
+  }
+  &__part {
+    //background: $secondary-color;
+    width: 90%;
+    margin: 1rem;
+    padding: 1rem;
+    border-bottom: solid 2px $light-gray;
+    // border-bottom: 1px;
+    //border-radius: 15px;
+  }
+
+  &__title {
+    font-weight: 400;
+  }
+  &__date,
+  &__city {
+    font-weight: 400;
+  }
+  .btn {
+    background-color: $secondary-color;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+  }
+}

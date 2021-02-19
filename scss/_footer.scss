@@ -1,0 +1,23 @@
+.footer {
+  font-family: $font-secondary;
+  font-weight: 900;
+  padding: 2.5rem 0;
+  text-align: center;
+  &__email {
+    // padding-top: 2rem;
+    text-align: center;
+    margin: auto;
+  }
+
+  &__social {
+    padding-top: 1rem;
+    //padding-bottom: 2rem;
+    text-align: center;
+    margin: auto;
+
+    a {
+      padding-right: 1rem;
+      padding-left: 1rem;
+    }
+  }
+}

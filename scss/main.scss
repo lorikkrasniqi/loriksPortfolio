@@ -1,0 +1,110 @@
+@import "config";
+@import "header";
+@import "home";
+@import "about";
+@import "contact";
+@import "projects";
+@import "responsive";
+@import "footer";
+@import "admin";
+@import "education";
+@import "skills";
+@import "experience";
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  top: 0px;
+  left: 0px;
+  font-family: $font-primary;
+  font-size: 1rem;
+  line-height: 1.6;
+  //width: 320px;
+  //height: 5734px;
+  background: #ffffff 0% 0% no-repeat padding-box;
+  opacity: 1;
+}
+section {
+  padding: 3rem 1.5rem;
+
+  h1 {
+    justify-content: center;
+    align-items: center;
+  }
+}
+a {
+  color: $secondary-color;
+  text-decoration: none;
+}
+.dark {
+  background: $primary-color;
+  color: $white;
+}
+.light {
+  background: $white;
+  color: $primary-color;
+}
+
+.btn-filter {
+  background-color: $secondary-color; /* Green */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+
+footer {
+  background-color: $light-black;
+  color: $secondary-color;
+}
+
+// .modalNew {
+//   position: fixed;
+//   top: 0;
+//   left: 0;
+//   right: 0;
+//   bottom: 0;
+//   background: rgba(0, 0, 0, 0.5);
+//   z-index: 2;
+//   display: none;
+
+//   .modal-content {
+//     background: #fff;
+//     margin-top: 100px;
+//     width: 70%;
+//     margin-left: auto;
+//     margin-right: auto;
+//     padding: 8px 24px;
+//     border-radius: 4px;
+//     z-index: 4;
+//   }
+//   .modal-header {
+//     padding: 10px 0;
+//   }
+//   .modal-header,
+//   .modal-close {
+//     float: right;
+//     background: #efefef;
+//     border: 0;
+//     outline: 0;
+//     padding: 5px 8px;
+//   }
+//   .modal-body {
+//     color: #7b7b7b;
+//     padding: 15px 0;
+//   }
+//   .modal-footer {
+//     padding: 15px 0;
+//   }
+//   .modal-footer,
+//   .modal-close {
+//     padding: 8px 16px;
+//     border: none;
+//     outline: none;
+//     color: $primary-color;
+//   }
+// }
